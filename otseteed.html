@@ -1,0 +1,148 @@
+<style>
+  .shortcuts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .shortcuts-column {
+    flex: 1 1 300px;
+    min-width: 300px;
+  }
+
+  .shortcuts-column h3 {
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .first-heading {
+    margin-top: 0;
+  }
+
+  ul {
+    padding-left: 1.2em;
+    margin-top: 0;
+  }
+
+  li {
+    margin-bottom: 0.4em;
+    color: gray; /* <-- nüüd töötab! */
+  }
+
+  li strong {
+    color: black; /* <-- nüüd töötab! */
+  }
+
+  @media print {
+    body {
+      margin-top: 0 !important;
+    }
+
+    .shortcuts-column h3 {
+      margin-top: 1em !important;
+    }
+
+    .first-heading {
+      margin-top: 0 !important;
+    }
+  }
+</style>
+
+
+
+<div class="shortcuts-container">
+  <div class="shortcuts-column">
+    <h3 class="first-heading"><strong>Üldised kiirklahvid v1</strong></h3>
+    <ul>
+      <li><strong>Ctrl+C</strong>&nbsp;&nbsp;&nbsp;Kopeeri valitud sisu</li>
+      <li><strong>Ctrl+X</strong>&nbsp;&nbsp;&nbsp;Lõika valitud sisu</li>
+      <li><strong>Ctrl+V</strong>&nbsp;&nbsp;&nbsp;Kleebi sisu</li>
+      <li><strong>Ctrl+Z</strong>&nbsp;&nbsp;&nbsp;Võta tagasi</li>
+      <li><strong>Ctrl+F</strong>&nbsp;&nbsp;&nbsp;Otsi</li>
+      <li><strong>Ctrl+A</strong>&nbsp;&nbsp;&nbsp;Vali kõik</li>
+      <li><strong>Ctrl+S</strong>&nbsp;&nbsp;&nbsp;Salvesta</li>
+      <li><strong>Ctrl+P</strong>&nbsp;&nbsp;&nbsp;Prindi</li>
+      <li><strong>Ctrl+N</strong>&nbsp;&nbsp;&nbsp;Uus aken/dokument</li>
+      <li><strong>Ctrl+Tab</strong>&nbsp;&nbsp;&nbsp;Järgmine vahekaart</li>
+      <li><strong>Ctrl+Shift+Tab</strong>&nbsp;&nbsp;&nbsp;Eelmine vahekaart</li>
+      <li><strong>Shift+F10</strong>&nbsp;&nbsp;&nbsp;Kontekstimenüü</li>
+    </ul>
+
+    <h3><strong>File Exploreri otseteed</strong></h3>
+    <ul>
+      <li><strong>Ctrl+Shift+N</strong>&nbsp;&nbsp;&nbsp;Uus kaust</li>
+      <li><strong>Alt+Enter</strong>&nbsp;&nbsp;&nbsp;Omadused</li>
+      <li><strong>Shift+Delete</strong>&nbsp;&nbsp;&nbsp;Kustuta jäädavalt</li>
+      <li><strong>F2</strong>&nbsp;&nbsp;&nbsp;Nimeta ümber</li>
+      <li><strong>Shift+↑/↓</strong>&nbsp;&nbsp;&nbsp;Vali järjestikused failid</li>
+      <li><strong>Shift+klõps</strong>&nbsp;&nbsp;&nbsp;Vali vahemik</li>
+      <li><strong>Ctrl+klõps</strong>&nbsp;&nbsp;&nbsp;Vali üksikuid</li>
+    </ul>
+
+    <h3><strong>Teksti manipuleerimine</strong></h3>
+    <ul>
+      <li><strong>Backspace</strong>&nbsp;&nbsp;&nbsp;Kustuta eelnev tähemärk</li>
+      <li><strong>Ctrl+Backspace</strong>&nbsp;&nbsp;&nbsp;Kustuta eelnev sõna</li>
+      <li><strong>Delete</strong>&nbsp;&nbsp;&nbsp;Kustuta järgmine tähemärk</li>
+      <li><strong>Ctrl+Delete</strong>&nbsp;&nbsp;&nbsp;Kustuta järgmine sõna</li>
+      <li><strong>Ctrl+D</strong>&nbsp;&nbsp;&nbsp;Kustuta valitud (nt fail)</li>
+      <li><strong>Ctrl+K</strong>&nbsp;&nbsp;&nbsp;Lisa hüperlink</li>
+    </ul>
+  </div>
+
+  <div class="shortcuts-column">
+    <h3><strong>Windowsi otseteed</strong></h3>
+    <ul>
+      <li><strong>Win+D</strong>&nbsp;&nbsp;&nbsp;Töölaud</li>
+      <li><strong>Win+E</strong>&nbsp;&nbsp;&nbsp;Ava File Explorer</li>
+      <li><strong>Win+L</strong>&nbsp;&nbsp;&nbsp;Lukusta arvuti</li>
+      <li><strong>Win+R</strong>&nbsp;&nbsp;&nbsp;Ava "Run"</li>
+      <li><strong>Win+I</strong>&nbsp;&nbsp;&nbsp;Ava seaded</li>
+      <li><strong>Win+Shift+S</strong>&nbsp;&nbsp;&nbsp;Ekraanipildi ala valik</li>
+      <li><strong>Win+V</strong>&nbsp;&nbsp;&nbsp;Lõikepuhvri ajalugu</li>
+      <li><strong>Win+X</strong>&nbsp;&nbsp;&nbsp;Süsteemitööriistad</li>
+    </ul>
+
+    <h3><strong>Akende haldamine</strong></h3>
+    <ul>
+      <li><strong>Alt+Tab</strong>&nbsp;&nbsp;&nbsp;Vaheta akent</li>
+      <li><strong>Alt+Shift+Tab</strong>&nbsp;&nbsp;&nbsp;Vaheta akent (vastassuunas)</li>
+      <li><strong>Win+←/→</strong>&nbsp;&nbsp;&nbsp;Aken vasakule/paremale</li>
+      <li><strong>Win+↑/↓</strong>&nbsp;&nbsp;&nbsp;Maksimeeri/minimeeri</li>
+      <li><strong>Win+Shift+←/→</strong>&nbsp;&nbsp;&nbsp;Teisele kuvarile</li>
+      <li><strong>Alt+F4</strong>&nbsp;&nbsp;&nbsp;Sule aken</li>
+      <li><strong>Ctrl+Shift+Esc</strong>&nbsp;&nbsp;&nbsp;Ava Task Manager</li>
+      <li><strong>Esc</strong>&nbsp;&nbsp;&nbsp;Sule hüpik või dialoog</li>
+    </ul>
+
+    <h3><strong>Brauseri otseteed</strong></h3>
+    <ul>
+      <li><strong>Ctrl+L</strong>&nbsp;&nbsp;&nbsp;Aadressiribale</li>
+      <li><strong>Tab</strong>&nbsp;&nbsp;&nbsp;Järgmine element</li>
+      <li><strong>Shift+Tab</strong>&nbsp;&nbsp;&nbsp;Eelmine element</li>
+      <li><strong>Ctrl+T</strong>&nbsp;&nbsp;&nbsp;Uus kaart</li>
+      <li><strong>Ctrl+W</strong>&nbsp;&nbsp;&nbsp;Sule kaart</li>
+      <li><strong>Ctrl+Shift+T</strong>&nbsp;&nbsp;&nbsp;Ava eelmine kaart</li>
+      <li><strong>Ctrl+R</strong>&nbsp;&nbsp;&nbsp;Laadi leht</li>
+      <li><strong>Ctrl+D</strong>&nbsp;&nbsp;&nbsp;Lisa järjehoidja</li>
+    </ul>
+
+    <h3><strong>Teksti vahel liikumine</strong></h3>
+    <ul>
+      <li><strong>←/→</strong>&nbsp;&nbsp;&nbsp;Tähemärgi kaupa</li>
+      <li><strong>Ctrl+←/→</strong>&nbsp;&nbsp;&nbsp;Sõna kaupa</li>
+      <li><strong>Home / End</strong>&nbsp;&nbsp;&nbsp;Rea algus/lõpp</li>
+      <li><strong>Ctrl+Home/End</strong>&nbsp;&nbsp;&nbsp;Algus/lõpp dokumendis</li>
+      <li><strong>Page Up/Down</strong>&nbsp;&nbsp;&nbsp;Lehe võrra üles/alla</li>
+    </ul>
+
+    <h3><strong>Teksti valimine</strong></h3>
+    <ul>
+      <li><strong>Shift+←/→</strong>&nbsp;&nbsp;&nbsp;Vali tähemärkhaaval</li>
+	  <li><strong>Shift+↑/↓</strong>&nbsp;&nbsp;&nbsp;Vali rea kaupa</li>
+      <li><strong>Ctrl+Shift+←/→</strong>&nbsp;&nbsp;&nbsp;Vali sõna kaupa</li>
+      <li><strong>Shift+Home/End</strong>&nbsp;&nbsp;&nbsp;Vali rea alguseni/lõpuni</li>
+      <li><strong>Ctrl+Shift+Home/End</strong>&nbsp;&nbsp;&nbsp;Vali dokumendi alguseni/lõpuni</li>
+    </ul>
+  </div>
+</div>
